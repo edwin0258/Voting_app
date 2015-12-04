@@ -37,4 +37,38 @@
   color: #000;
   padding: 0.2em 0;
 }
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+header{
+  margin-bottom:50px;
+}
 
+#signup-btn{
+	width:200px;
+	height:45px;
+	font-size:20px;
+}
+.list-items p{
+  font-size:14px;
+}
+.list-items .fa-bolt{
+	color:#FAEA73;
+	font-size:70px;
+}
+.list-items .fa-globe{
+	color:#5CB85C;
+	font-size:70px;
+}
+.list-items .fa-facebook{
+	color:#4393B9;
+	font-size:70px;
+}
+.list-items li{
+	display:inline-block;
+	text-align:center;
+
+}

@@ -11,7 +11,7 @@ angular.module('workspaceApp', [
   .config(function($routeProvider, $locationProvider, $httpProvider) {
     $routeProvider
       .otherwise({
-        redirectTo: '/'
+          redirectTo: '/'
       });
 
     $locationProvider.html5Mode(true);
